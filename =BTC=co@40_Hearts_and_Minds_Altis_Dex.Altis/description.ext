@@ -1,0 +1,34 @@
+loadScreen = "core\img\btc.paa";
+author = Giallustio;
+onLoadName = Hearts and Minds;
+onLoadMission = www.blacktemplars.altervista.org;
+
+#include "LT\LTmenu.hpp"
+#include "taw_vd\GUI.h"
+#include "VVS\menu.h"
+#include "R3F_LOG\desc_include.h"
+#include "core\def\dlg_def.hpp"
+
+#include "core\fnc\fob\dlg.hpp"
+#include "core\fnc\int\progress_bar.hpp"
+#include "core\fnc\log\dlg.hpp"
+//#include "core\fnc\rev\dlg.hpp"
+
+class RscTitles {
+    class Default {
+        idd = -1;
+        fadein = 0;
+        fadeout = 0;
+        duration = 0;
+    };
+	//#include "core\fnc\rev\rsc.hpp"
+	#include "core\fnc\log\rsc.hpp"
+};
+
+#include "core\sounds\sounds.hpp"
+
+#include "core\def\param.hpp"
+
+#include "core\def\functions.hpp"
+
+#include "core\fnc\eh\extended_InitPost_EH.hpp"
